@@ -1,0 +1,11 @@
+{
+  "name": "h1-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:omriLugasi/h1-a.git",
+  "author": "omri <omlrc1991@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "husky": "^9.0.11"
+  }
+}
