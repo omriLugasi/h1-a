@@ -1,6 +1,6 @@
 {
     "name": "h1-a",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "main": "index.js",
     "repository": "git@github.com:omriLugasi/h1-a.git",
     "author": "omri <omlrc1991@gmail.com>",
@@ -8,5 +8,8 @@
     "dependencies": {
         "husky": "^9.0.11",
         "release-toolkit": "file:../.."
+    },
+    "scripts": {
+        "build-same-app-with-different-context": "echo 'this is a test for pre script'"
     }
 }
