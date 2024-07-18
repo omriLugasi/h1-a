@@ -1,6 +1,6 @@
 {
     "name": "@custom/my-mirroring-package-name",
-    "version": "1.0.20",
+    "version": "1.0.21",
     "main": "index.js",
     "repository": "git@github.com:omriLugasi/h1-a.git",
     "author": "omri <omlrc1991@gmail.com>",
