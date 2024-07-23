@@ -7,12 +7,12 @@
     {
       "branch": "main",
       "folderPath": "src/a",
-      "id": "main",
+      "id": "new",
       "plugins": [
         {
           "name": "github",
-          "tagPattern": "{{tag}}-main",
-          "releasePattern": "Main - {{release}}"
+          "tagPattern": "{{tag}}-new",
+          "releasePattern": "New - {{release}}"
         },
         {
           "name": "npm",
