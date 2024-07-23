@@ -3,7 +3,7 @@
     "repo": "h1-a",
     "owner": "omriLugasi"
   },
-  "workdirs": [
+  "workspaces": [
     {
       "branch": "main",
       "folderPath": "src/a",
