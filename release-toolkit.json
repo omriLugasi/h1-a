@@ -5,7 +5,7 @@
   },
   "workspaces": [
     {
-      "branch": "main",
+      "branch": "www",
       "folderPath": "src/a",
       "id": "new",
       "plugins": [
