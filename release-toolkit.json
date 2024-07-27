@@ -5,7 +5,7 @@
   },
   "workspaces": [
     {
-      "branch": "www",
+      "branch": "main",
       "folderPath": "src/a",
       "id": "new",
       "plugins": [
@@ -17,11 +17,21 @@
         {
           "name": "npm",
           "dryRun": true
+        }
+      ]
+    },
+    {
+      "branch": "main",
+      "folderPath": "src/b",
+      "id": "new-src-b",
+      "plugins": [
+        {
+          "name": "github",
+          "tagPattern": "v{{tag}}-new-b",
+          "releasePattern": "New B - {{release}}"
         },
         {
-          "name": "npm:mirroring",
-          "packageName": "@custom/my-mirroring-package-name",
-          "pre": "yarn build-same-app-with-different-context",
+          "name": "npm",
           "dryRun": true
         }
       ]
