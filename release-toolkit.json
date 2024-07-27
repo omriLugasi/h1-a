@@ -11,7 +11,7 @@
       "plugins": [
         {
           "name": "github",
-          "tagPattern": "{{tag}}-new-a",
+          "tagPattern": "{{tag}}-new-a2",
           "releasePattern": "New A2 - {{release}}"
         },
         {
@@ -27,7 +27,7 @@
       "plugins": [
         {
           "name": "github",
-          "tagPattern": "v{{tag}}-new-b",
+          "tagPattern": "v{{tag}}-new-b2",
           "releasePattern": "New B2 - {{release}}"
         },
         {
