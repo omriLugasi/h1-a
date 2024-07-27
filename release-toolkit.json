@@ -11,8 +11,8 @@
       "plugins": [
         {
           "name": "github",
-          "tagPattern": "{{tag}}-new",
-          "releasePattern": "New - {{release}}"
+          "tagPattern": "{{tag}}-new-a",
+          "releasePattern": "New A - {{release}}"
         },
         {
           "name": "npm",
