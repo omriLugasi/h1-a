@@ -12,7 +12,7 @@
         {
           "name": "github",
           "tagPattern": "{{tag}}-new-a",
-          "releasePattern": "New A - {{release}}"
+          "releasePattern": "New A2 - {{release}}"
         },
         {
           "name": "npm",
@@ -28,7 +28,7 @@
         {
           "name": "github",
           "tagPattern": "v{{tag}}-new-b",
-          "releasePattern": "New B - {{release}}"
+          "releasePattern": "New B2 - {{release}}"
         },
         {
           "name": "npm",
