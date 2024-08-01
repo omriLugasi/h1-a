@@ -7,32 +7,22 @@
     {
       "branch": "main",
       "folderPath": "src/a",
-      "id": "new",
       "plugins": [
         {
           "name": "github",
           "tagPattern": "{{tag}}-new-a2",
           "releasePattern": "New A2 - {{release}}"
-        },
-        {
-          "name": "npm",
-          "dryRun": true
         }
       ]
     },
     {
       "branch": "main",
       "folderPath": "src/b",
-      "id": "new-src-b",
       "plugins": [
         {
           "name": "github",
           "tagPattern": "v{{tag}}-new-b3",
           "releasePattern": "New B3 - {{release}}"
-        },
-        {
-          "name": "npm",
-          "dryRun": true
         }
       ]
     }
