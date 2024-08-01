@@ -27,8 +27,8 @@
       "plugins": [
         {
           "name": "github",
-          "tagPattern": "v{{tag}}-new-b2",
-          "releasePattern": "New B2 - {{release}}"
+          "tagPattern": "v{{tag}}-new-b3",
+          "releasePattern": "New B3 - {{release}}"
         },
         {
           "name": "npm",
