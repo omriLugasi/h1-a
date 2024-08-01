@@ -41,7 +41,7 @@
     {
       "pattern": "^refactor\\(\\):",
       "upgrade": "major",
-      "title": "Refeactor!"
+      "title": "Refactor!"
     },
     {
       "pattern": "^feat\\(\\):",
@@ -56,6 +56,11 @@
     {
       "pattern": "^ignore\\(\\):",
       "upgrade": "ignore"
+    },
+    {
+      "pattern": "^docs\\(\\):",
+      "upgrade": "ignore",
+      "title": "Docs"
     }
   ]
 }
