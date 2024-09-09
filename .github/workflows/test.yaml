@@ -10,15 +10,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20.9.0
+          registry-url: https://registry.npmjs.org/
       - run: |
-          date > generated.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git stash
           git fetch
           git checkout ci
-          git stash pop
+          date > generated.txt
+          node node.js
           git add .
           git commit -m "generated"
           git push
