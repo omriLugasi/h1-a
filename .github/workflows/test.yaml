@@ -18,6 +18,7 @@ jobs:
           git stash
           git fetch
           git checkout ci
+          git stash pop
           git add .
           git commit -m "generated"
           git push
